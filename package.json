@@ -1,0 +1,24 @@
+{
+  "name": "asciitree",
+  "version": "1.0.0",
+  "description": "Draw vertical ASCII tree",
+  "main": "asciitree.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elfet/asciitree.git"
+  },
+  "keywords": [
+    "ascii",
+    "tree",
+    "cli"
+  ],
+  "author": "Anton Medvedev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elfet/asciitree/issues"
+  },
+  "homepage": "https://github.com/elfet/asciitree#readme"
+}
