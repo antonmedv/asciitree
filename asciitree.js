@@ -89,7 +89,7 @@ module.exports = function draw_tree(tree, how_to_get_title, how_to_get_children)
       var at = position;
       if (nodes.length == 1) {
         node = nodes[0];
-        title = get_title(node);
+        title = get_title(node).toString();
 
         var halfOfCurrentTitle = Math.floor(currentTitle.length / 2);
         offset = Math.floor(title.length / 2) - halfOfCurrentTitle;
