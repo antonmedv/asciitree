@@ -1,6 +1,6 @@
 {
   "name": "asciitree",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Draw vertical ASCII tree",
   "main": "asciitree.js",
   "scripts": {

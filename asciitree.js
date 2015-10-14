@@ -82,7 +82,7 @@ module.exports = function draw_tree(tree, how_to_get_title, how_to_get_children)
       nodePadding = 0,
       node, title,
       offset = 0,
-      currentTitle = get_title(tree),
+      currentTitle = get_title(tree).toString(),
       nodes = get_nodes(tree);
 
     if (nodes) {
@@ -103,7 +103,7 @@ module.exports = function draw_tree(tree, how_to_get_title, how_to_get_children)
       } else {
         for (var i = 0; i < nodes.length; i++) {
           node = nodes[i];
-          title = get_title(node);
+          title = get_title(node).toString();
 
           if (i == 0) {
             offset = title.length == 1 ? 2 : Math.floor(title.length / 2) + 1;
